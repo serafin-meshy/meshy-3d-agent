@@ -12,6 +12,13 @@
   never leaves the computer; the page loads `<model-viewer>` 4.4.0 from jsDelivr, pinned with a
   subresource-integrity hash. Hosts without such a panel skip the step.
 
+### Fixed
+
+- On the reference-image route, the generation and printing skills now show the image and end
+  the turn, and build the model only after the user approves it. In a Cursor run the agent had
+  taken the user's choice of route as approval of the image as well, looked at it itself and went
+  straight to the 3D model.
+
 ## [0.9.6] - 2026-11-11
 
 ### Changed
